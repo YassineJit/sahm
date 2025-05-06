@@ -1,3 +1,15 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
+from datetime import datetime, timedelta
+import yfinance as yf  # For fetching real stock data (if available)
+import requests
+from PIL import Image
+import os
+import base64
+import matplotlib.pyplot as plt
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
